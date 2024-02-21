@@ -11,11 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/ewertonjsilva/intro_node_des_1sem_2024.git"
   },
-  "keywords": ["NodeJS", "Introdução"],
+  "keywords": [
+    "NodeJS",
+    "Introdução"
+  ],
   "author": "Ewerton",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ewertonjsilva/intro_node_des_1sem_2024/issues"
   },
-  "homepage": "https://github.com/ewertonjsilva/intro_node_des_1sem_2024#readme"
+  "homepage": "https://github.com/ewertonjsilva/intro_node_des_1sem_2024#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }

@@ -61,3 +61,4 @@ let velha = [
 
 console.log(velha[2][2]);
 console.log(typeof(velha));  
+console.log((Array.isArray(velha)) ? 'Array': 'Não é array');
