@@ -23,7 +23,7 @@ let entrada = require('prompt-sync')();
 // console.log(`Sua idade é ${idade}`); 
 
 
-let num = parseInt(entrada('Digite um número para visualizar a tabuada!'))
+// let num = parseInt(entrada('Digite um número para visualizar a tabuada!'));
 
 // let cont = 1;
 
@@ -33,7 +33,32 @@ let num = parseInt(entrada('Digite um número para visualizar a tabuada!'))
 //     cont++;
 // }
 
-for (let cont = 1; cont <= 10; cont++) {
-    let calc = num * cont;
-    console.log(`${num} X ${cont} = ${calc}`);
+// for (let cont = 1; cont <= 10; cont++) {
+//     let calc = num * cont;
+//     console.log(`${num} X ${cont} = ${calc}`);
+// }
+
+const senha = '123456'; 
+let cont = 0;
+do {    
+    if (cont === 3) {
+        break;
+    }
+    cont++;    
+    var senhaDig = entrada('Digite a senha para acessar o sitema: ');    
+} while (senhaDig !== senha);
+
+if (cont >= 3) {
+    console.log('Acesso não autorizado');    
+} else {
+    console.log('Acesso autorizado');
 }
+
+entrada();
+
+// let sn = '123456';
+// let snDg = entrada('Digite a senha para acessar o sitema: ');
+
+// while (sn ==! snDg) {
+//     snDg = entrada('Digite a senha para acessar o sitema: ');
+// }
